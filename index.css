@@ -10,7 +10,7 @@
   /* Navbar Styles */
 
   .container {
-    background-image: url(images/heroimg.jpg);
+    background-image: url(heroimg.jpg);
     height: 110vh;
     background-size: cover;
     background-position: center;
