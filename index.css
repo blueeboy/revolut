@@ -14,7 +14,6 @@
     height: 110vh;
     background-size: cover;
     background-position: center;
-    padding: 1rem 11em;
     margin: 0 auto;
   }
 
@@ -24,13 +23,16 @@
     align-items: center;
     color: #fff;
     scroll-snap-align: start;
+    width: 100%;
   }
   
   .navbar-container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1em;
+    padding: 1em 9em;
   }
   
   .navbar-container a {
@@ -60,7 +62,7 @@
     border-radius: 30px
   }
 
-  ul.links li a:hover {
+  ul.links li .link:hover {
     background-color: rgb(247, 247, 247);
     color: #161618;
     transition: all ease-in 0.2s;
@@ -163,7 +165,7 @@
 }
 
 .container-content {
-  padding: 0;
+  padding: 0 9em;
 }
 
 .container-content h1 {
@@ -1104,7 +1106,21 @@ footer .footer-end a:hover {
 
 
 
+@media (max-width:1400px) {
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 1em 3em;
+  }
 
+  .container-content {
+    padding: 0 3em;
+  }
+  
+}
 
 
 
